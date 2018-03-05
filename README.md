@@ -1,5 +1,5 @@
 # Step 1 Reading and merging data
-    setwd("C:/Sailaja_Projects/Personal/Training/Data Science Orientation/Data Science_Course 3/UCI HAR Dataset/train")
+    setwd("/Data Science_Course 3/UCI HAR Dataset/train")
     > read_subject_train<-("subject_train.txt")
     > read_Xtrain<-("X.train.txt")
     > read_Ytrain<-("Y.train.txt")

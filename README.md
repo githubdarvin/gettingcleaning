@@ -3,7 +3,7 @@
     > read_subject_train<-("subject_train.txt")
     > read_Xtrain<-("X.train.txt")
     > read_Ytrain<-("Y.train.txt")
-    > setwd("C:/Sailaja_Projects/Personal/Training/Data Science Orientation/Data Science_Course 3/UCI HAR Dataset/test")
+    > setwd("/Data Science Orientation/Data Science_Course 3/UCI HAR Dataset/test")
     > read_subject_test("subject_test.txt")
     > read_subject_test<-("subject_test.txt")
     > read_Xtest<-("X.test.txt")

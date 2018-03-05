@@ -14,3 +14,12 @@
     subject <- rbind(read_subject_train, read_subject_test)
    >XTestTrain<-rbind(read_Xtest,read_Xtrain)
     >YTestTrain<-rbind(read_Ytest,read_Ytrain)
+# Extract mean and STD
+x_test_meanstd <- x_test[,col_mean_std]
+x_train_meansstd <- x_train[,col_mean_std]
+# Uses descriptive activity names to name the activities in the data set
+
+# Appropriately labels the data set with descriptive variable names.
+
+# Write Tidy.txt
+>write.table(tidy.Txt, "tidy.Txt.txt", row.names = FALSE)

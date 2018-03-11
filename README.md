@@ -2,7 +2,7 @@
 First the file was downloded from the url beloW:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Then the file was unzipped
-For convenience, I had all the files in one folder
+For convenience, I had all the files in one folder on my local drive
 After reading and merging individual test and train files. Did a total merge
 Extracts only the measurements on the mean and standard deviation for each measurement.
 Uses descriptive activity names to name the activities in the data set
